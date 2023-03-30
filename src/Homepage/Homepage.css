@@ -1,0 +1,16 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    margin-right: 3rem;
+    width: 7rem;
+}
