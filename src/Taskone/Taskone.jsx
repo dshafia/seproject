@@ -23,7 +23,7 @@ const Taskone = () => {
                     <QuestionAnswer />
                 </div>
                 <div className="btn-container">
-                    <Link to="/game" className="taskone-btn"><FiChevronsRight /></Link>
+                    <Link to="/oneplayer" className="taskone-btn"><FiChevronsRight /></Link>
                 </div>
             </div>
         </>

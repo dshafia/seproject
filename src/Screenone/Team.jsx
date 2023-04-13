@@ -16,7 +16,7 @@ const Team = () => {
                     <p style={{ marginTop: '5rem' }} >{`<< INFO TEXT >>`}</p>
                 </div>
                 <div className="btn-container">
-                    <Link to="/taskfailed" className="taskone-btn"><FiChevronsRight /></Link>
+                    <Link to="/game" className="taskone-btn"><FiChevronsRight /></Link>
                 </div>
             </div>
         </>

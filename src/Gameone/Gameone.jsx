@@ -61,7 +61,7 @@ const Gameone = () => {
                     <Button variant="dark" onClick={() => handleClick()}>Check</Button>
                 </div>
                 <div className="btn-container">
-                    <Link to="/oneplayer" className="taskone-btn"><FiChevronsRight /></Link>
+                    <Link to="/taskfailed" className="taskone-btn"><FiChevronsRight /></Link>
                 </div>
             </div>
         </>
