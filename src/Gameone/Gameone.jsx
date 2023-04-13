@@ -8,7 +8,7 @@ import './Gameone.css';
 
 const lettersList = ['M', 'A', 'E', 'P', 'L', 'F', 'O'];
 
-const Question = () => {
+export const Question = () => {
     return (
         <div className="ques-container">
             <p className="ques-text">{`Question text goes here. <<Anagram>>`}</p>
@@ -16,7 +16,7 @@ const Question = () => {
     )
 }
 
-const Answer = () => {
+export const Answer = () => {
     return (
         <div className="ans-container">
             <textarea className="gameone-anstext" placeholder="eg. text"></textarea>
@@ -24,7 +24,7 @@ const Answer = () => {
     )
 }
 
-const Letters = (letter) => {
+export const Letters = (letter) => {
     return (
         <div className="letter">
             {letter.letter}
@@ -32,7 +32,7 @@ const Letters = (letter) => {
     )
 }
 
-const ErrorText = () => {
+export const ErrorText = () => {
     return (
         <p className="error-txt">Wrong! Please try again!!</p>
     )
@@ -61,7 +61,7 @@ const Gameone = () => {
                     <Button variant="dark" onClick={() => handleClick()}>Check</Button>
                 </div>
                 <div className="btn-container">
-                    <Link to="/" className="taskone-btn"><FiChevronsRight /></Link>
+                    <Link to="/oneplayer" className="taskone-btn"><FiChevronsRight /></Link>
                 </div>
             </div>
         </>

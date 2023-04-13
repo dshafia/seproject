@@ -1,14 +1,14 @@
+.gameone-content {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+
 .gameone-container {
     margin: auto;
     border: 1px solid black;
     height: 80vh;
     width: 72vw;
-}
-
-.gameone-content {
-    display: flex;
-    flex-direction: row;
-    width: 80vw;
 }
 
 .ques-container, .ans-container {

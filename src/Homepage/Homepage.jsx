@@ -14,7 +14,7 @@ const Homepage = () => {
                     <p>Description</p>
                 </div>
                 <div className="image-class">
-                    <img height="250" width="250" src="src/assets/images/imageone.jpg" />
+                    <img height="250" width="250" alt='welcome image' src="src/assets/images/imageone.jpg" />
                 </div>
             </div>
             <div className='btn-container'>

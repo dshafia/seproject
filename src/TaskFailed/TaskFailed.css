@@ -1,0 +1,17 @@
+.taskfailed-content {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+
+.taskfailed-container {
+    margin: auto;
+    border: 1px solid black;
+    height: 80vh;
+    width: 72vw;
+}
+
+.taskfailed-text {
+    margin-top: 10rem;
+    font-size: 32px;
+}
