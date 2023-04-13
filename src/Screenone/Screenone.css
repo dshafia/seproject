@@ -1,0 +1,12 @@
+.screenone-content {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+
+.screenone-container {
+    margin: auto;
+    border: 1px solid black;
+    height: 80vh;
+    width: 72vw;
+}
