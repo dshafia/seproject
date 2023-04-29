@@ -5,6 +5,7 @@ import { FiChevronsRight } from 'react-icons/fi';
 import Template from '../Template/Template'
 import Button from 'react-bootstrap/Button';
 import './Gameone.css';
+import Gametwo from '../Gametwo/Gametwo';
 
 const lettersList = ['M', 'A', 'E', 'P', 'L', 'F', 'O'];
 
@@ -50,7 +51,7 @@ const Gameone = () => {
             <Template title="GAME ONE TITLE" />
             <div className="gameone-content">
                 <div className="gameone-container">
-                    <Question />
+                    {/* <Question />
                     {isError ? <ErrorText /> : ''}
                     <div className="letters-class">
                         {lettersList.map((letter) => (
@@ -58,10 +59,13 @@ const Gameone = () => {
                         ))}
                     </div>
                     <Answer />
-                    <Button variant="dark" onClick={() => handleClick()}>Check</Button>
+                    <Button variant="dark" onClick={() => handleClick()}>Check</Button> */}
+
+                    <Gametwo />
+
                 </div>
-                <div className="btn-container">
-                    <Link to="/taskfailed" className="taskone-btn"><FiChevronsRight /></Link>
+                <div className="gameone-btn">
+                    <Link to="/taskfailed" className="gamebtn-text">End game</Link>
                 </div>
             </div>
         </>

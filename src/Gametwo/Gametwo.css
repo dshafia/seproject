@@ -46,42 +46,38 @@
     color: #ED4337;
 }
 
-.gameone-btn {
-    color: white;
-    height: 2rem;
-    width: 7rem;
-    background-color: #212529;
-    position: relative;
-    top: 74.9vh;
-    border-radius: 0.5rem;
-    margin-left: 2rem;
-    padding-top: 0.2rem;
-}
-
-.modal-btn {
-    color: white;
-    background-color: #212529;
-    height: 2rem;
-    width: 7rem;
-    border-radius: 0.5rem;
-    padding-top: 0.2rem;
-    font-size: smaller;
-    font-style: normal;
-}
-
-.modal-btn:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.gamebtn-text {
-    font-size: smaller;
-    font-style: normal;
-    text-decoration: none;
-    color: white;
-}
-
-.gamebtn-text:hover {
-    color: white;
-    text-decoration: none;
-}
+header.navbar {
+    height: 40px;
+    margin: 5px 20px;
+  }
+  
+  div.menu .menu-item.tile.tile-centered {
+    margin-top: 5px;
+  }
+  
+  .menu.hero-list {
+    z-index: inherit;
+    transform: none;
+    /* min-height: 500px; */
+    height: 10rem;
+    width: 40rem;
+    display: flex;
+    box-shadow: 0 0 0 pink;
+    flex-direction: row;
+    background-color: rgb(240, 240, 240);
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 14px;
+  }
+  
+  .tile-content {
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 2.5rem;
+    margin: auto;
+  }
